@@ -118,6 +118,7 @@ document.querySelector('.again').addEventListener('click', function () {
 
   // document.querySelector('.number').textContent = '?';
   displayNumber('?');
+  console.log(secretNumber);
 
   document.querySelector('.guess').value = '';
 
